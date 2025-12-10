@@ -1,10 +1,11 @@
-package Controller;
+package Controller.LoginController;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 
-public class LoginPageController {
+
+public class LoginPageController  {
 
     @FXML
     private TextField AdminStaffid;

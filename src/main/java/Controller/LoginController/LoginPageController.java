@@ -7,6 +7,7 @@ import javafx.scene.control.TextField;
 
 public class LoginPageController  {
 
+
     @FXML
     private TextField AdminStaffid;
 
@@ -20,5 +21,10 @@ public class LoginPageController  {
     void LoginOnAction(ActionEvent event) {
 
     }
+
+    public void DatabaseLoader(){
+
+    }
+
 
 }

@@ -10,23 +10,23 @@
 
 <AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoginController.LoginPageController">
    <children>
-      <ImageView fitHeight="500.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="500.0" fitWidth="701.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/loginformimage.png" />
+            <Image url="@../images/Loginimage.png" />
          </image>
       </ImageView>
-      <Label alignment="CENTER" layoutX="416.0" layoutY="81.0" prefHeight="45.0" prefWidth="185.0" text="Login">
+      <Label alignment="CENTER" layoutX="427.0" layoutY="71.0" prefHeight="45.0" prefWidth="185.0" text="Login">
          <font>
             <Font name="Arial Black" size="24.0" />
          </font>
       </Label>
-      <TextField fx:id="Usernameid" layoutX="398.0" layoutY="157.0" prefHeight="32.0" prefWidth="221.0" promptText="User Name" style="-fx-background-radius: 12px;" />
-      <TextField fx:id="Passwordid" layoutX="398.0" layoutY="218.0" prefHeight="32.0" prefWidth="221.0" promptText="Password" style="-fx-background-radius: 12px;" />
-      <TextField fx:id="AdminStaffid" layoutX="398.0" layoutY="278.0" prefHeight="32.0" prefWidth="221.0" promptText="Admin/Staff" style="-fx-background-radius: 12px;" />
-      <Button layoutX="473.0" layoutY="348.0" mnemonicParsing="false" onAction="#LoginOnAction" prefHeight="32.0" prefWidth="72.0" style="-fx-background-radius: 10px; -fx-background-color: #F3B75A; -fx-border-radius: 10px;" text="Button">
+      <TextField fx:id="Usernameid" layoutX="409.0" layoutY="157.0" prefHeight="32.0" prefWidth="221.0" promptText="User Name" style="-fx-background-radius: 12px;" />
+      <TextField fx:id="Passwordid" layoutX="409.0" layoutY="218.0" prefHeight="32.0" prefWidth="221.0" promptText="Password" style="-fx-background-radius: 12px;" />
+      <Button layoutX="477.0" layoutY="294.0" mnemonicParsing="false" onAction="#LoginOnAction" prefHeight="32.0" prefWidth="85.0" style="-fx-background-radius: 10px; -fx-background-color: #F3B75A; -fx-border-radius: 10px;" text="Login">
          <font>
             <Font name="Georgia" size="13.0" />
          </font>
       </Button>
+      <Label alignment="CENTER" layoutX="465.0" layoutY="116.0" prefHeight="17.0" prefWidth="109.0" text="Admin/Staff Only" />
    </children>
 </AnchorPane>
